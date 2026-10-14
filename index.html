@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cérémonie de Dot | Arsène & Lucie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--tq:#17a2c8;--gold:#e0b83a;--gold2:#f6dc7e;--ink:#0a0a0a;--cream:#f7f1e6;
+--pagne:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='100'%3E%3Crect width='120' height='100' fill='%2317a2c8'/%3E%3Cpolygon points='30,5 52,26 30,47 8,26' fill='%23e0b83a'/%3E%3Cpolygon points='30,15 42,26 30,37 18,26' fill='%2317a2c8'/%3E%3Cpolygon points='30,21 35,26 30,31 25,26' fill='%23e0b83a'/%3E%3Cpolygon points='90,5 112,26 90,47 68,26' fill='%23fff'/%3E%3Cpolygon points='90,15 102,26 90,37 78,26' fill='%2317a2c8'/%3E%3Cpolygon points='90,21 95,26 90,31 85,26' fill='%23fff'/%3E%3Crect y='53' width='120' height='3' fill='%23e0b83a'/%3E%3Crect y='58' width='120' height='2' fill='%23fff'/%3E%3Cg fill='%23e0b83a'%3E%3Crect x='0' y='65' width='12' height='7'/%3E%3Crect x='24' y='65' width='12' height='7'/%3E%3Crect x='48' y='65' width='12' height='7'/%3E%3Crect x='72' y='65' width='12' height='7'/%3E%3Crect x='96' y='65' width='12' height='7'/%3E%3Crect x='12' y='83' width='12' height='7'/%3E%3Crect x='36' y='83' width='12' height='7'/%3E%3Crect x='60' y='83' width='12' height='7'/%3E%3Crect x='84' y='83' width='12' height='7'/%3E%3Crect x='108' y='83' width='12' height='7'/%3E%3C/g%3E%3Cg fill='%23fff'%3E%3Crect x='12' y='65' width='12' height='7'/%3E%3Crect x='36' y='65' width='12' height='7'/%3E%3Crect x='60' y='65' width='12' height='7'/%3E%3Crect x='84' y='65' width='12' height='7'/%3E%3Crect x='108' y='65' width='12' height='7'/%3E%3Crect x='0' y='83' width='12' height='7'/%3E%3Crect x='24' y='83' width='12' height='7'/%3E%3Crect x='48' y='83' width='12' height='7'/%3E%3Crect x='72' y='83' width='12' height='7'/%3E%3Crect x='96' y='83' width='12' height='7'/%3E%3C/g%3E%3C/svg%3E")}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--ink)}
+body{font-family:'Poppins',Arial,sans-serif;background:var(--ink);color:#fff;line-height:1.6;overflow-x:hidden}
+h1,h2,.serif{font-family:'Cormorant Garamond',Georgia,serif}
+.band{height:44px;background:var(--pagne) 0 0/90px 75px;border-block:2px solid var(--gold)}
+nav{position:fixed;inset:0 0 auto;z-index:50;background:rgba(10,10,10,.88);backdrop-filter:blur(12px);padding:calc(10px + env(safe-area-inset-top,0px)) 10px 10px;border-bottom:1px solid rgba(224,184,58,.35)}
+nav ul{display:flex;gap:6px 18px;justify-content:center;flex-wrap:wrap;list-style:none}
+nav a{color:#fff;text-decoration:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;opacity:.8}
+nav a:hover{color:var(--gold2);opacity:1}
+section{position:relative;padding:90px 22px;text-align:center;display:flex;flex-direction:column;align-items:center}
+.wrap{max-width:560px;width:100%;position:relative;z-index:1}
+.tex::before{content:"";position:absolute;inset:0;background:var(--pagne) 0 0/150px 125px;opacity:.13}
+#top{min-height:100svh;justify-content:center;padding-top:110px;background:radial-gradient(circle at 50% 30%,#10343d,var(--ink) 70%)}
+.eyebrow{letter-spacing:5px;font-size:12px;color:var(--tq);text-transform:uppercase;margin-bottom:18px}
+h1{font-size:clamp(3rem,13vw,5.2rem);line-height:1;background:linear-gradient(180deg,var(--gold2),var(--gold) 60%,#a8821c);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}
+h2{font-size:clamp(2.2rem,9vw,3rem);color:var(--gold2);font-weight:700;margin-bottom:8px}
+.orn{display:flex;align-items:center;gap:12px;justify-content:center;margin:22px 0;color:var(--gold)}
+.orn::before,.orn::after{content:"";height:1px;width:70px;background:linear-gradient(90deg,transparent,var(--gold))}
+.orn::after{transform:scaleX(-1)}
+.names{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,6.5vw,2.1rem);font-weight:500;line-height:1.35}
+.names em{color:var(--gold);font-size:1.3em;display:block}
+.date{color:var(--gold2);font-size:1.05rem;letter-spacing:2px;text-transform:uppercase;margin:6px 0}
+.place{color:#cfd8da;font-weight:300;margin-bottom:22px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 30px;border-radius:50px;text-decoration:none;color:#111;font-weight:600;font-size:14px;border:0;cursor:pointer;background:linear-gradient(135deg,var(--gold2),var(--gold));box-shadow:0 8px 24px rgba(224,184,58,.25);transition:.3s}
+.btn:hover{transform:translateY(-3px)}
+.btn.tq{background:linear-gradient(135deg,#31c4e8,var(--tq));color:#fff;box-shadow:0 8px 24px rgba(23,162,200,.3)}
+.cd{display:flex;gap:10px;justify-content:center;margin-top:34px}
+.cd div{width:70px;padding:12px 0;border:1px solid rgba(224,184,58,.5);border-radius:14px;background:rgba(255,255,255,.04)}
+.cd b{display:block;font:700 1.8rem 'Cormorant Garamond',serif;color:var(--gold2)}
+.cd small{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#aab}
+.cal{margin:26px auto 0;max-width:340px;padding:22px;border:1px solid rgba(224,184,58,.4);border-radius:20px;background:rgba(0,0,0,.45);backdrop-filter:blur(6px)}
+.cal h3{font:600 1.5rem 'Cormorant Garamond',serif;color:var(--gold2);margin-bottom:10px;letter-spacing:3px;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;font-size:13px}
+.grid span{aspect-ratio:1;display:grid;place-items:center;border-radius:50%;color:#ddd}
+.grid .h{color:var(--tq);font-size:11px;font-weight:600}
+.grid .on{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#111;font-weight:700;box-shadow:0 0 18px rgba(224,184,58,.6)}
+#inv{background:var(--cream);color:#2a2418}
+#inv h2{color:#8a6a10}
+#inv .names{color:#1b1b1b}
+#inv .place{color:#555}
+#inv .date{color:var(--tq)}
+.verse{font-style:italic;color:#6b6252;font-size:.95rem;margin-bottom:26px}
+.tl{position:relative;text-align:left;margin:34px 0 10px;padding-left:34px}
+.tl::before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--gold),var(--tq))}
+.it{position:relative;margin-bottom:22px;padding:14px 18px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1)}
+.it::before{content:"";position:absolute;left:-33px;top:20px;width:14px;height:14px;border-radius:50%;background:var(--ink);border:3px solid var(--gold)}
+.it b{color:var(--tq);font-size:13px;letter-spacing:2px}
+.it p{font-size:1rem}
+.white{font:700 clamp(3rem,15vw,5rem)/1 'Cormorant Garamond',serif;letter-spacing:6px;margin:14px 0 24px;text-transform:uppercase}
+.sw{display:flex;gap:12px;justify-content:center;margin-bottom:22px}
+.sw i{width:46px;height:46px;border-radius:50%;border:2px solid var(--gold)}
+.msg{font:500 italic clamp(1.4rem,6vw,1.9rem)/1.5 'Cormorant Garamond',serif}
+form{background:rgba(255,255,255,.96);color:#1c1c1c;text-align:left;padding:30px 24px;border-radius:22px;box-shadow:0 20px 50px rgba(0,0,0,.5);border-top:8px solid var(--tq)}
+label{display:block;font-size:13px;font-weight:600;margin:0 0 6px}
+input[type=text],select,textarea{width:100%;padding:13px 14px;margin-bottom:18px;border:1.5px solid #ddd;border-radius:12px;font:16px 'Poppins',sans-serif;background:#fafafa;color:#111}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--tq)}
+.ch{display:flex;gap:10px;margin-bottom:18px}
+.ch label{flex:1;margin:0;font-weight:500}
+.ch input{display:none}
+.ch span{display:block;text-align:center;padding:13px;border:1.5px solid #ddd;border-radius:12px;cursor:pointer}
+.ch input:checked+span{background:var(--tq);border-color:var(--tq);color:#fff}
+form .btn{width:100%;justify-content:center;font-size:16px}
+.ok{display:none;padding:14px;border-radius:12px;background:#e8f7ee;color:#14663a;margin-top:14px;font-size:14px}
+footer{padding:36px 20px calc(36px + env(safe-area-inset-bottom,0px));text-align:center;color:#8a8a8a;font-size:13px;background:#050505}
+.rv{opacity:0;transform:translateY(26px);transition:1s}
+.rv.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<nav><ul>
+<li><a href="#top">Accueil</a></li><li><a href="#date">Date</a></li><li><a href="#inv">Invitation</a></li><li><a href="#prog">Programme</a></li><li><a href="#dress">Dress code</a></li><li><a href="#rsvp">RSVP</a></li>
+</ul></nav>
+
+<section id="top" class="tex"><div class="wrap">
+<p class="eyebrow rv">Invitation officielle</p>
+<h1 class="rv">Cérémonie<br>de Dot</h1>
+<div class="orn rv">✦</div>
+<p class="names rv">Ezoua Kouao Arsène<em>&</em>Kangah Adelatchi Lucie</p>
+<p class="date rv">Samedi 12 Décembre 2026</p>
+<p class="place rv">Espace Assoh, en face de l’Espace Béthanie<br>Grand-Bassam</p>
+<a class="btn rv" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Espace+Assoh%2C+en+face+de+Espace+Bethanie%2C+Grand-Bassam%2C+Cote+d%27Ivoire">📍 Voir l’itinéraire Google Maps</a>
+<div class="cd rv" id="cd"></div>
+</div></section>
+<div class="band"></div>
+
+<section id="date" class="tex"><div class="wrap">
+<h2 class="rv">Save the Date</h2>
+<p class="serif rv" style="font-size:1.4rem;color:#cfd8da">Nous avons hâte de célébrer ce jour unique avec vous</p>
+<div class="cal rv"><h3>Décembre 2026</h3><div class="grid" id="grid"></div></div>
+</div></section>
+
+<section id="inv"><div class="wrap">
+<h2 class="rv">Invitation</h2>
+<p class="verse rv">« Maintenant donc ces trois choses demeurent : la foi, l’espérance et l’amour ; mais la plus grande de ces choses, c’est l’amour. »<br>— 1 Corinthiens 13:13</p>
+<p class="rv">Les familles ont la joie de vous inviter<br>à la cérémonie de dot de</p>
+<p class="names rv" style="margin:18px 0">Ezoua Kouao Arsène<em>&</em>Kangah Adelatchi Lucie</p>
+<p class="date rv">Samedi 12 Décembre 2026</p>
+<p class="place rv">Espace Assoh, en face de l’Espace Béthanie, Grand-Bassam</p>
+<a class="btn tq rv" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=Espace+Assoh%2C+en+face+de+Espace+Bethanie%2C+Grand-Bassam%2C+Cote+d%27Ivoire">Cliquez ici pour l’itinéraire</a>
+</div></section>
+<div class="band"></div>
+
+<section id="prog" class="tex"><div class="wrap">
+<h2 class="rv">Programme de la journée</h2>
+<div class="tl">
+<div class="it rv"><b>08H00</b><p>Accueil des familles</p></div>
+<div class="it rv"><b>09H00</b><p>Présentation et négociations de la dote</p></div>
+<div class="it rv"><b>10H00</b><p>Remise officielle de la dote et bénédictions</p></div>
+<div class="it rv"><b>11H00</b><p>Pause et moments de convivialité familiale</p></div>
+<div class="it rv"><b>13H00</b><p>Début de la réception</p></div>
+<div class="it rv"><b>15H00</b><p>Soirée dansante</p></div>
+</div>
+<p class="rv" style="color:#aab;font-size:.9rem">Nous vous prions de nous honorer par votre présence en respectant les horaires indiqués.</p>
+</div></section>
+
+<section id="dress" style="background:var(--cream);color:#222"><div class="wrap">
+<h2 class="rv" style="color:#8a6a10">Dress Code</h2>
+<p class="white rv">Tout Blanc</p>
+<div class="sw rv"><i style="background:#fff"></i><i style="background:#f4efe4"></i><i style="background:#e9dcc0"></i><i style="background:var(--gold)"></i></div>
+<p class="rv" style="color:#555">Tenue élégante en blanc exigée</p>
+</div></section>
+<div class="band"></div>
+
+<section id="msg" class="tex"><div class="wrap">
+<h2 class="rv">Message des familles</h2>
+<p class="msg rv">Votre présence sera pour nous un précieux cadeau et contribuera à rendre cette journée inoubliable.</p>
+<div class="orn rv">✦</div>
+<p class="names rv" style="font-size:1.6rem">Familles Ezoua & Kangah</p>
+<p class="serif rv" style="color:var(--tq);font-size:1.8rem;margin-top:10px">Cordiale Bienvenue</p>
+</div></section>
+
+<section id="rsvp" style="background:linear-gradient(#0a0a0a,#0d2a31)"><div class="wrap">
+<h2 class="rv">Confirmation de présence</h2>
+<p class="rv" style="color:#bcc;margin-bottom:26px">Merci de confirmer votre présence</p>
+<form id="f" class="rv">
+<label>Confirmation de présence *</label>
+<div class="ch"><label><input type="radio" name="p" value="Oui" required><span>Oui, je viens</span></label><label><input type="radio" name="p" value="Non"><span>Non, désolé(e)</span></label></div>
+<label>Votre nom complet *</label><input type="text" id="n" required placeholder="Nom et prénom">
+<label>Boisson non alcoolisée</label>
+<select id="s"><option value="">— Choisir —</option><option>Coca-Cola</option><option>Fanta</option><option>Maltina</option><option>Vitalo</option><option>Sprite</option><option>Eau minérale</option></select>
+<label>Boisson alcoolisée</label>
+<select id="a"><option value="">— Choisir —</option><option>Beaufort</option><option>Castel</option><option>Heineken</option><option>Tembo</option><option>Nkoyi</option><option>Aucune</option></select>
+<label>Un petit message aux fiancés</label><textarea id="m" rows="3" placeholder="Facultatif"></textarea>
+<button class="btn" type="submit">Envoyer ma confirmation</button>
+<div class="ok" id="ok">Merci ! WhatsApp s’ouvre avec votre réponse : appuyez sur « Envoyer » pour la transmettre aux familles.</div>
+</form>
+<p class="rv" style="margin-top:26px"><a class="btn tq" id="share" href="#" target="_blank" rel="noopener">Partager l’invitation sur WhatsApp</a></p>
+</div></section>
+
+<footer><div class="band" style="margin:0 auto 24px;max-width:240px;border-radius:6px;height:24px"></div>Cérémonie de Dot • 12 Décembre 2026 • Grand-Bassam<br>Avec amour • Familles Ezoua & Kangah</footer>
+
+<script>
+var PHONE=""; // numéro WhatsApp qui reçoit les réponses, ex. "2250102030405" (sans + ni espaces)
+var T=new Date(2026,11,12,8,0,0);
+function tick(){var d=Math.max(0,T-new Date()),u=[["Jours",864e5],["Heures",36e5],["Min",6e4],["Sec",1e3]],h="";
+u.forEach(function(x){var v=Math.floor(d/x[1]);d-=v*x[1];h+='<div><b>'+String(v).padStart(2,"0")+'</b><small>'+x[0]+'</small></div>'});
+document.getElementById("cd").innerHTML=h}
+tick();setInterval(tick,1000);
+var g="";["L","M","M","J","V","S","D"].forEach(function(x){g+='<span class="h">'+x+'</span>'});
+g+="<span></span>";for(var i=1;i<=31;i++)g+='<span'+(i==12?' class="on">♥':'>'+i)+'</span>';
+document.getElementById("grid").innerHTML=g;
+document.getElementById("f").onsubmit=function(e){e.preventDefault();
+var t="*Cérémonie de Dot – 12/12/2026*%0AConfirmation : "+document.querySelector("input[name=p]:checked").value+"%0ANom : "+encodeURIComponent(n.value)+"%0ABoisson soft : "+encodeURIComponent(s.value||"-")+"%0ABoisson alcoolisée : "+encodeURIComponent(a.value||"-")+(m.value?"%0AMessage : "+encodeURIComponent(m.value):"");
+document.getElementById("ok").style.display="block";window.open("https://wa.me/"+PHONE+"?text="+t,"_blank")};
+document.getElementById("share").onclick=function(){this.href="https://wa.me/?text="+encodeURIComponent("Vous êtes invités à la Cérémonie de Dot d’Arsène & Lucie, samedi 12 décembre 2026 à Grand-Bassam 🤍 Tenue : tout blanc. Détails et RSVP : "+location.href)};
+var io=new IntersectionObserver(function(r){r.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.12});
+document.querySelectorAll(".rv").forEach(function(x,i){x.style.transitionDelay=(i%4)*.08+"s";io.observe(x)});
+</script>
+</body>
+</html>
